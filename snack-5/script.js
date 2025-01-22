@@ -4,10 +4,9 @@ const nums = [2, 8, 4, 7, 12, 87];
 // Risultato: [2, 8, 4, 12]
 
 const pari = nums.filter(element => {
-    if (element % 2 === 0) {
-        return true;
-    }
-    return false
+
+    return element % 2 === 0
+
 });
 
 console.log(pari);
